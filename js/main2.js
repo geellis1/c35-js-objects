@@ -96,3 +96,32 @@ const beatles = {
 console.log(`${beatles.members[1].name} was in the beatles from ${beatles.history.formed} 
 to ${beatles.history.disbanded}). He was born in ${beatles.members[1].birth}. 
 He contributed heavily to the ${beatles.albums[3]} album`)
+
+//_________________________________________________________________
+
+//Little Debbie, 3 objects and then put them in the array//
+
+    const zebraCakes = {
+        flavor: "vanilla",
+        color: "striped",
+        season: "year-round", 
+        type: "cake",
+    }
+
+    const nuttyButty = {
+        flavor: "chocolate", 
+        color: "brown", 
+        season: "year-round", 
+        type: "cookie", 
+    }
+
+    const trees = {
+        flavor: "chocolate",
+        color: "green",
+        season: "holiday", 
+        type: "cake",
+    }
+
+    littleDebbieDreams =  [zebraCakes, nuttyButty, trees];
+    console.log(littleDebbieDreams)
+
